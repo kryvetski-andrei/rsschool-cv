@@ -8,7 +8,7 @@
 
 ---
 
-## About me 
+## About Me 
 I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills.\
 I am reliable and dependable and often seek new responsibilities within a wide range of employment areas. 
 
@@ -19,6 +19,18 @@ I am reliable and dependable and often seek new responsibilities within a wide r
 - CSS/SASS
 - JavaScript (Basic)
 - Git
+
+---
+
+## Code Example 
+```
+function sum(a, b) {
+  return a + b;
+}
+
+let result = sum(1, 2);
+alert( result );
+```
 
 ---
 
