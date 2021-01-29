@@ -34,5 +34,19 @@ alert( result );
 
 ---
 
+## Experience
+
+---
+
+## Education 
+- __University:__ Belarusian National Technical University, Civil Engineering major
+- __Courses:__
+  - [CS50 lectures](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
+  - freecodecamp.org
+  - htmlacademy.ru
+
+---
+
+
 
 
