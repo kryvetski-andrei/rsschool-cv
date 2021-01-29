@@ -1,6 +1,6 @@
-# [rsschool-cv](https://kryvetski-andrei.github.io/rsschool-cv/)
-# Andrei Kryvetski
-## Contacts
+# __[rsschool-cv](https://kryvetski-andrei.github.io/rsschool-cv/)__
+# __Andrei Kryvetski__
+## __Contacts__
 - __Location:__ Minsk, Belarus
 - __Phone:__ +375 29 134-40-41
 - __Email:__ kryvetskistud@gmail.com
@@ -8,13 +8,13 @@
 
 ---
 
-## About Me 
+## __About Me__
 I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills.\
 I am reliable and dependable and often seek new responsibilities within a wide range of employment areas. 
 
 ---
 
-## Skills
+## __Skills__
 - HTML
 - CSS/SASS
 - JavaScript (Basic)
@@ -22,7 +22,7 @@ I am reliable and dependable and often seek new responsibilities within a wide r
 
 ---
 
-## Code Example 
+## __Code Example__
 ```
 function sum(a, b) {
   return a + b;
@@ -34,11 +34,11 @@ alert( result );
 
 ---
 
-## Experience
+## __Experience__
 
 ---
 
-## Education 
+## __Education__ 
 - __University:__ Belarusian National Technical University, Civil Engineering major
 - __Courses:__
   - [CS50 lectures](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
@@ -46,6 +46,10 @@ alert( result );
   - htmlacademy.ru
 
 ---
+
+## __English__
+__A2__ (I had been practicing English, when I worked in the USA as an exchange student) 
+
 
 
 
