@@ -35,7 +35,7 @@ alert( result );
 - __Courses:__
   - [CS50 lectures](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
   - [FreeCodeCamp](https://www.freecodecamp.org)
-  - [HTML Academy](hhtps://www.htmlacademy.ru)
+  - [HTML Academy](https://www.htmlacademy.ru)
 
 ## __English__
 __A2__ (I had been practicing English, when I worked in the USA as an exchange student) 
