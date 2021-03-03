@@ -404,3 +404,66 @@ address {
         }
     }
 }
+
+.footer {
+    background-color:#1f1f1f;
+    .footer__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .footer__inner--top {
+            padding: 1.75rem 0;
+            width: 100%;
+            .footer__links {
+                margin: 0 auto;
+                width: 25%;
+                display: flex;
+                justify-content: space-between;
+
+                .footer__item {
+                    height: 30px;
+                    cursor: pointer;
+                    .footer__link--vk {
+                        display: block;
+                        width: 30px;
+                        height: 100%;
+                        background: url(../images/footer-icon-vk.svg) center center no-repeat;
+                        background-size: cover;
+                    }
+                    .footer__link--facebook {
+                        display: inline-block;
+                        width: 30px;
+                        height: 100%;
+                        background: url(../images/footer-icon-facebook.svg) center center no-repeat;
+                        background-size: cover;
+                    }
+                    .footer__link--instagram {
+                        display: inline-block;
+                        width: 30px;
+                        height: 100%;
+                        background: url(../images/footer-icon-instagram.svg) center center no-repeat;
+                        background-size: cover;
+                    }
+                    .footer__link--github {
+                        display: inline-block;
+                        width: 30px;
+                        height: 100%;
+                        background: url(../images/footer-icon-github.svg) center center no-repeat;
+                        background-size: cover;
+                    }
+                    .footer__link--rsschool {
+                        display: inline-block;
+                        width: 80px;
+                        height: 100%;
+                        background: url(../images/footer-icon-rsschool.svg) center center no-repeat;
+                        background-size: cover;
+                    }
+                } 
+            }
+        }
+        .footer__inner--bottom {
+            padding-bottom: 0.2rem;
+        }
+    }
+}

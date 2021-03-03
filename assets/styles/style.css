@@ -475,4 +475,89 @@ address {
   z-index: 2;
   padding: 1.75rem 1.75rem 1.75rem;
 }
+
+.footer {
+  background-color: #1f1f1f;
+}
+
+.footer .footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer__container .footer__inner--top {
+  padding: 1.75rem 0;
+  width: 100%;
+}
+
+.footer .footer__container .footer__inner--top .footer__links {
+  margin: 0 auto;
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer__container .footer__inner--top .footer__links .footer__item {
+  height: 30px;
+  cursor: pointer;
+}
+
+.footer .footer__container .footer__inner--top .footer__links .footer__item .footer__link--vk {
+  display: block;
+  width: 30px;
+  height: 100%;
+  background: url(../images/footer-icon-vk.svg) center center no-repeat;
+  background-size: cover;
+}
+
+.footer .footer__container .footer__inner--top .footer__links .footer__item .footer__link--facebook {
+  display: inline-block;
+  width: 30px;
+  height: 100%;
+  background: url(../images/footer-icon-facebook.svg) center center no-repeat;
+  background-size: cover;
+}
+
+.footer .footer__container .footer__inner--top .footer__links .footer__item .footer__link--instagram {
+  display: inline-block;
+  width: 30px;
+  height: 100%;
+  background: url(../images/footer-icon-instagram.svg) center center no-repeat;
+  background-size: cover;
+}
+
+.footer .footer__container .footer__inner--top .footer__links .footer__item .footer__link--github {
+  display: inline-block;
+  width: 30px;
+  height: 100%;
+  background: url(../images/footer-icon-github.svg) center center no-repeat;
+  background-size: cover;
+}
+
+.footer .footer__container .footer__inner--top .footer__links .footer__item .footer__link--rsschool {
+  display: inline-block;
+  width: 80px;
+  height: 100%;
+  background: url(../images/footer-icon-rsschool.svg) center center no-repeat;
+  background-size: cover;
+}
+
+.footer .footer__container .footer__inner--bottom {
+  padding-bottom: 0.2rem;
+}
 /*# sourceMappingURL=style.css.map */
