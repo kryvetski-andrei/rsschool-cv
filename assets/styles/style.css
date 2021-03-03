@@ -52,6 +52,11 @@ address {
   margin: 0 auto;
 }
 
+.subtitle {
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+
 .header {
   height: 100vh;
   width: 100%;
@@ -144,5 +149,49 @@ address {
   background-color: #979899;
   position: absolute;
   top: 0;
+}
+
+.main .about-me {
+  position: relative;
+}
+
+.main .about-me .about-me__bg--left {
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  z-index: 0;
+  background-color: #2d2e2e;
+}
+
+.main .about-me .about-me__bg--right {
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  z-index: 1;
+  background-color: #2b2c2c;
+  top: 0;
+  right: 0;
+}
+
+.main .about-me .about-me__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .about-me .about-me__container .about-me__inner--left {
+  width: 30%;
+  z-index: 2;
+  padding: 1.75rem 1.75rem 1.75rem;
+  text-align: right;
+}
+
+.main .about-me .about-me__container .about-me__inner--right {
+  width: 70%;
+  z-index: 2;
+  background-color: #2b2c2c;
+  padding: 1.75rem 1.75rem 1.75rem;
 }
 /*# sourceMappingURL=style.css.map */
