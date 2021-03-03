@@ -138,15 +138,7 @@
 
     document.querySelector('.latest-articles__button--right').addEventListener('click', function () {
         currentPosition -= (100/3);
-        if (currentPosition < -100) {
-            currentPosition = 0;
-        }
-        slidesContainer.style.transform = `translateX(${currentPosition}%)`;
-    });
-
-    document.querySelector('.latest-articles__button--left').addEventListener('click', function () {
-        currentPosition += (100/3);
-        if (currentPosition > 0 ) {
+        if (currentPosition -100) {
             currentPosition = 0;
         }
         slidesContainer.style.transform = `translateX(${currentPosition}%)`;
@@ -172,13 +164,14 @@
                     </article>
                     <article class="education__courses">
                         <h4>Courses:</h4>
-                        <ul>
-                            <li><a href="https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA">CS50 lectures</a></li>
-                            <li><a href="https://www.freecodecamp.org">FreeCodeCamp</a></li>
-                            <li><a href="https://www.htmlacademy.ru">HTML Academy</a></li>
+                        <ul class="education__list">
+                            <li class="education__item"><a class="education__link" href="https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA">CS50 lectures</a></li>
+                            <li class="education__item"><a class="education__link" href="https://www.freecodecamp.org">FreeCodeCamp</a></li>
+                            <li class="education__item"><a class="education__link" href="https://www.htmlacademy.ru">HTML Academy</a></li>
                         </ul>
                     </article>
                 </div>
+            </div>
         </section>
         <section class="english">
             <div class="english__bg--left"></div>
@@ -191,6 +184,7 @@
                 <div class="english__inner--right">
                     <p>I had been practicing English, when I worked in the USA as an exchange student</p>
                 </div>
+            </div>
         </section>
     </main>
     <footer class="footer">
