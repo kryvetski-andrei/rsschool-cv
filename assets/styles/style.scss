@@ -28,9 +28,16 @@ p, a {
     color: #979899;
     font-weight: 1rem;
 }
-a:hover {
-    color: #ffffff;
+a {
+    color: #e0a80d;
+    &:hover {
+        color: #ffffff;
+    }
+    &:active {
+        color: #979899;
+    }
 }
+
 address {
     font-style: normal;
     color:#979899;
@@ -312,4 +319,49 @@ address {
     }
 }
 
+.education {
+    position: relative;
+    .education__bg--left {
+        display: block;
+        position: absolute;
+        height: 100%;
+        width: 50%;
+        z-index: 0;
+        background-color: #2b2c2c;
+    }
+    .education__bg--right {
+        display: block;
+        position: absolute;
+        height: 100%;
+        width: 50%;
+        z-index: 1;
+        background-color: #2d2e2e;
+        top: 0;
+        right: 0;
+    }
+    .education__container {
+        display: flex;
+        .education__inner--left{
+            width: 30%;
+            background-color: #2b2c2c;
+            z-index: 2;
+            padding: 1.75rem 1.75rem 1.75rem;
+            text-align: right;
+        }
+        .education__inner--right{
+            display: flex;
+            width: 70%;
+            background-color: #2d2e2e;
+            z-index: 2;
+            padding: 1.75rem 1.75rem 1.75rem;
+            
+            .education__university {
+                width: 50%;
+            }
 
+            .education__courses {
+                width: 50%;
+            }
+        }
+    }
+}

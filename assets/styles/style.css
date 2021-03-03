@@ -37,8 +37,16 @@ p, a {
   font-weight: 1rem;
 }
 
+a {
+  color: #e0a80d;
+}
+
 a:hover {
   color: #ffffff;
+}
+
+a:active {
+  color: #979899;
 }
 
 address {
@@ -362,5 +370,61 @@ address {
 .code-example .code-example__container .code-example__inner--right pre code {
   font-size: 0.85rem;
   font-family: 'Anonymous Pro', monospace;
+}
+
+.education {
+  position: relative;
+}
+
+.education .education__bg--left {
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  z-index: 0;
+  background-color: #2b2c2c;
+}
+
+.education .education__bg--right {
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  z-index: 1;
+  background-color: #2d2e2e;
+  top: 0;
+  right: 0;
+}
+
+.education .education__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.education .education__container .education__inner--left {
+  width: 30%;
+  background-color: #2b2c2c;
+  z-index: 2;
+  padding: 1.75rem 1.75rem 1.75rem;
+  text-align: right;
+}
+
+.education .education__container .education__inner--right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  background-color: #2d2e2e;
+  z-index: 2;
+  padding: 1.75rem 1.75rem 1.75rem;
+}
+
+.education .education__container .education__inner--right .education__university {
+  width: 50%;
+}
+
+.education .education__container .education__inner--right .education__courses {
+  width: 50%;
 }
 /*# sourceMappingURL=style.css.map */
