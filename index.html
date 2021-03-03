@@ -70,7 +70,7 @@
             <div class="skills__container container">
                 <div class="skills__inner--left">
                     <h2 class="skills__title"><b>Skills</b></h2>
-                    <h3 class="skills__subtitle subtitle">A few words</h2>
+                    <h3 class="skills__subtitle subtitle">In progress</h2>
                 </div>
                 <div class="skills__inner--right">
                     <div class="skills__grid">
@@ -117,6 +117,42 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="code-example">
+            <div class="code-example__bg--left"></div>
+            <div class="code-example__bg--right"></div>
+            <div class="code-example__container container">
+                <div class="code-example__inner--left">
+                    <h2 class="about-me__title"><b>Code example</b></h2>
+                    <h3 class="about-me__subtitle subtitle">From Wildlife task</h2>
+                </div>
+                <div class="code-example__inner--right">
+                    <pre>
+                        <code>
+                            const slidesContainer = document.querySelector('.latest-articles__slider');
+        
+                            let currentPosition = 0;
+        
+                            document.querySelector('.latest-articles__button--right').addEventListener('click', function () {
+                                currentPosition -= (100/3);
+                                if (currentPosition < -100) {
+                                    currentPosition = 0;
+                                }
+                                slidesContainer.style.transform = `translateX(${currentPosition}%)`;
+                            });
+        
+                            document.querySelector('.latest-articles__button--left').addEventListener('click', function () {
+                                currentPosition += (100/3);
+                                if (currentPosition > 0 ) {
+                                    currentPosition = 0;
+                                }
+                                slidesContainer.style.transform = `translateX(${currentPosition}%)`;
+                            });
+                        </code>
+                    </pre>
                 </div>
             </div>
         </section>
