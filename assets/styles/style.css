@@ -18,27 +18,38 @@ button {
   background-color: transparent;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: #a4a5a6;
+}
+
 h1 {
   font-size: 4.8rem;
-  color: #a4a5a6;
   font-weight: 400;
 }
 
 h2, h3 {
   font-size: 1.2rem;
-  color: #a4a5a6;
   font-weight: 300;
+}
+
+p, a {
+  color: #979899;
+  font-weight: 1rem;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+address {
+  font-style: normal;
+  color: #979899;
 }
 
 .container {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-}
-
-body {
-  z-index: 2;
-  position: relative;
 }
 
 .header {
@@ -91,7 +102,7 @@ body {
 }
 
 .header .header__container .header__inner--left img {
-  width: 100%;
+  width: 250px;
   border-radius: 50%;
 }
 
@@ -109,5 +120,29 @@ body {
   padding: 1.75rem 1.75rem 0rem;
   background-color: #2d2e2e;
   z-index: 2;
+  position: relative;
+}
+
+.header .header__container .header__inner--right .header__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.75rem 1.75rem 1.75rem;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.header .header__container .header__inner--right .header__contacts::before {
+  content: '';
+  width: calc(100% - 3.5rem);
+  height: 1px;
+  background-color: #979899;
+  position: absolute;
+  top: 0;
 }
 /*# sourceMappingURL=style.css.map */
