@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kryvetski CV RSS</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/normalize.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="header__bg--left"></div>
+        <div class="header__bg--right"></div>
+
+        <div class="header__container container">
+            <div class="header__inner--left">
+                <img src="assets/images/kryvetski-avatar.jpg" alt="kryvetski-avatar">
+            </div>
+
+            <div class="header__inner--right">
+                <div class="header__content">
+                    <h1 class="header__title"><span>Kryvetski</span> Andrei</h1>
+                    <h3 class="header__subtitle">Front-end web developer (Beginner)</h3>
+                </div>
+
+                <ul class="header__contacts">
+                    <li class="header__contacts-item">
+                        <h4>Location</h4>
+                        <address>Minsk, Belarus</address>
+                    </li>
+                    <li class="header__contacts-item">
+                        <h4>Phone number</h4>
+                        <p>+375 29 134-40-41</p>
+                    </li>
+                    <li class="header__contacts-item">
+                        <h4>Email</h4>
+                        <p><a href="mailto:kryvetskiandrei@gmail.com">kryvetskiandrei@gmail.com</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="about-me">
+            <div class="about-me__bg--left"></div>
+            <div class="about-me__bg--right"></div>
+
+            <div class="about-me__container container">
+                <div class="about-me__inner--left">
+                    <h2 class="about-me__title"><b>About me</b></h2>
+                    <h3 class="about-me__subtitle subtitle">A few words</h3>
+                </div>
+                <div class="about-me__inner--right">
+                    <p> I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills.
+                        I am reliable and dependable and often seek new responsibilities within a wide range of employment areas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills">
+            <div class="skills__bg--left"></div>
+            <div class="skills__bg--right"></div>
+
+            <div class="skills__container container">
+                <div class="skills__inner--left">
+                    <h2 class="skills__title"><b>Skills</b></h2>
+                    <h3 class="skills__subtitle subtitle">In progress</h3>
+                </div>
+                <div class="skills__inner--right">
+                    <div class="skills__grid">
+                        <div class="skills__box">
+                            <h4>Html</h4>
+                            <p>80%</p>
+                            <div class="skills__bar">
+                                <div class="skills__bar-progress--html"></div>
+                            </div>
+                        </div>
+                        <div class="skills__box">
+                            <h4>Css/sass</h4>
+                            <p>70%</p>
+                            <div class="skills__bar">
+                                <div class="skills__bar-progress--css"></div>
+                            </div>
+                        </div>
+                        <div class="skills__box">
+                            <h4>Javascript</h4>
+                            <p>25%</p>
+                            <div class="skills__bar">
+                                <div class="skills__bar-progress--javascript"></div>
+                            </div>
+                        </div>
+                        <div class="skills__box">
+                            <h4>Git</h4>
+                            <p>40%</p>
+                            <div class="skills__bar">
+                                <div class="skills__bar-progress--git"></div>
+                            </div>
+                        </div>
+                        <div class="skills__box">
+                            <h4>React</h4>
+                            <p>10%</p>
+                            <div class="skills__bar">
+                                <div class="skills__bar-progress--react"></div>
+                            </div>
+                        </div>
+                        <div class="skills__box">
+                            <h4>Figma</h4>
+                            <p>70%</p>
+                            <div class="skills__bar">
+                                <div class="skills__bar-progress--figma"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="code-example">
+            <div class="code-example__bg--left"></div>
+            <div class="code-example__bg--right"></div>
+            <div class="code-example__container container">
+                <div class="code-example__inner--left">
+                    <h2 class="code-example__title"><b>Code example</b></h2>
+                    <h3 class="code-example__subtitle subtitle">From Wildlife task</h3>
+                </div>
+                <div class="code-example__inner--right">
+<pre>
+    <code>
+    const slidesContainer = document.querySelector('.latest-articles__slider');
+
+    let currentPosition = 0;
+
+    document.querySelector('.latest-articles__button--right').addEventListener('click', function () {
+        currentPosition -= (100/3);
+        if (currentPosition -100) {
+            currentPosition = 0;
+        }
+        slidesContainer.style.transform = `translateX(${currentPosition}%)`;
+    });
+    </code>
+</pre>
+                </div>
+            </div>
+        </section>
+
+        <section class="education">
+            <div class="education__bg--left"></div>
+            <div class="education__bg--right"></div>
+            <div class="education__container container">
+                <div class="education__inner--left">
+                    <h2 class="education__title"><b>Education</b></h2>
+                    <h3 class="education__subtitle subtitle">Still will</h3>
+                </div>
+                <div class="education__inner--right">
+                    <article class="education__university">
+                        <h4>University:</h4>
+                        <p><a href="http://www.bntu.by/">Belarusian National Technical University</a></p>
+                    </article>
+                    <article class="education__courses">
+                        <h4>Courses:</h4>
+                        <ul class="education__list">
+                            <li class="education__item"><a class="education__link" href="https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA">CS50 lectures</a></li>
+                            <li class="education__item"><a class="education__link" href="https://www.freecodecamp.org">FreeCodeCamp</a></li>
+                            <li class="education__item"><a class="education__link" href="https://www.htmlacademy.ru">HTML Academy</a></li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="english">
+            <div class="english__bg--left"></div>
+            <div class="english__bg--right"></div>
+            <div class="english__container container">
+                <div class="english__inner--left">
+                    <h2 class="english__title"><b>English</b></h2>
+                    <h3 class="english__subtitle subtitle">To much space for my <b>A2+</b></h3>
+                </div>
+                <div class="english__inner--right">
+                    <p>I had been practicing English, when I worked in the USA as an exchange student</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__inner--top">
+                <ul class="footer__links">
+                    <li class="footer__item"><a class="footer__link footer__link--vk" href="https://vk.com/kryvecki"></a></li>
+                    <li class="footer__item"><a class="footer__link footer__link--facebook" href="https://www.facebook.com/people/Andrei-Kryvetski/100011024532556"></a></li>
+                    <li class="footer__item"><a class="footer__link footer__link--rsschool" href="https://rs.school/js/"></a></li>
+                    <li class="footer__item"><a class="footer__link footer__link--instagram" href="https://www.instagram.com/kryvecki/"></a></li>
+                    <li class="footer__item"><a class="footer__link footer__link--github" href="https://github.com/kryvetski-andrei"></a></li>
+                </ul>
+            </div>
+            <div class="footer__inner--bottom">
+                <h6>Andrei Kryvetski 2021</h6>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
