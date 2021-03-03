@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kryvetski CV RSS</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="stylesheet" href="node_modules/normalize.css/">
 
@@ -130,29 +130,29 @@
                     <h3 class="about-me__subtitle subtitle">From Wildlife task</h2>
                 </div>
                 <div class="code-example__inner--right">
-                    <pre>
-                        <code>
-                            const slidesContainer = document.querySelector('.latest-articles__slider');
-        
-                            let currentPosition = 0;
-        
-                            document.querySelector('.latest-articles__button--right').addEventListener('click', function () {
-                                currentPosition -= (100/3);
-                                if (currentPosition < -100) {
-                                    currentPosition = 0;
-                                }
-                                slidesContainer.style.transform = `translateX(${currentPosition}%)`;
-                            });
-        
-                            document.querySelector('.latest-articles__button--left').addEventListener('click', function () {
-                                currentPosition += (100/3);
-                                if (currentPosition > 0 ) {
-                                    currentPosition = 0;
-                                }
-                                slidesContainer.style.transform = `translateX(${currentPosition}%)`;
-                            });
-                        </code>
-                    </pre>
+<pre>
+    <code>
+    const slidesContainer = document.querySelector('.latest-articles__slider');
+
+    let currentPosition = 0;
+
+    document.querySelector('.latest-articles__button--right').addEventListener('click', function () {
+        currentPosition -= (100/3);
+        if (currentPosition < -100) {
+            currentPosition = 0;
+        }
+        slidesContainer.style.transform = `translateX(${currentPosition}%)`;
+    });
+
+    document.querySelector('.latest-articles__button--left').addEventListener('click', function () {
+        currentPosition += (100/3);
+        if (currentPosition > 0 ) {
+            currentPosition = 0;
+        }
+        slidesContainer.style.transform = `translateX(${currentPosition}%)`;
+    });
+    </code>
+</pre>
                 </div>
             </div>
         </section>
