@@ -73,51 +73,51 @@
                     <h3 class="skills__subtitle subtitle">In progress</h3>
                 </div>
                 <div class="skills__inner--right">
-                    <div class="skills__grid">
-                        <div class="skills__box">
+                    <ul class="skills__grid">
+                        <li class="skills__box">
                             <h4>Html</h4>
                             <p>80%</p>
                             <div class="skills__bar">
                                 <div class="skills__bar-progress--html"></div>
                             </div>
-                        </div>
-                        <div class="skills__box">
+                        </li>
+                        <li class="skills__box">
                             <h4>Css/sass</h4>
                             <p>70%</p>
                             <div class="skills__bar">
                                 <div class="skills__bar-progress--css"></div>
                             </div>
-                        </div>
-                        <div class="skills__box">
+                        </li>
+                        <li class="skills__box">
                             <h4>Javascript</h4>
                             <p>25%</p>
                             <div class="skills__bar">
                                 <div class="skills__bar-progress--javascript"></div>
                             </div>
-                        </div>
-                        <div class="skills__box">
+                        </li>
+                        <li class="skills__box">
                             <h4>Git</h4>
                             <p>40%</p>
                             <div class="skills__bar">
                                 <div class="skills__bar-progress--git"></div>
                             </div>
-                        </div>
-                        <div class="skills__box">
+                        </li>
+                        <li class="skills__box">
                             <h4>React</h4>
                             <p>10%</p>
                             <div class="skills__bar">
                                 <div class="skills__bar-progress--react"></div>
                             </div>
-                        </div>
-                        <div class="skills__box">
+                        </li>
+                        <li class="skills__box">
                             <h4>Figma</h4>
                             <p>70%</p>
                             <div class="skills__bar">
                                 <div class="skills__bar-progress--figma"></div>
                             </div>
-                        </div>
+                        </li>
                     </div>
-                </div>
+                  </ul>
             </div>
         </section>
 
@@ -127,22 +127,45 @@
             <div class="code-example__container container">
                 <div class="code-example__inner--left">
                     <h2 class="code-example__title"><b>Code example</b></h2>
-                    <h3 class="code-example__subtitle subtitle">From Wildlife task</h3>
+                    <h3 class="code-example__subtitle subtitle">From random task</h3>
                 </div>
                 <div class="code-example__inner--right">
 <pre>
     <code>
-    const slidesContainer = document.querySelector('.latest-articles__slider');
-
-    let currentPosition = 0;
-
-    document.querySelector('.latest-articles__button--right').addEventListener('click', function () {
-        currentPosition -= (100/3);
-        if (currentPosition -100) {
-            currentPosition = 0;
+      function decode(expr) {
+        const splitedExpr = expr.split('');
+        let stash = [];
+        let result = [];
+      
+        function recursion(startIndex, endIndex) {
+          stash = [];
+      
+          if (startIndex === expr.length) return;
+      
+          for (let i = startIndex; i < endIndex; i = i + 2) {
+      
+            if (splitedExpr[i] + splitedExpr[i + 1] === '10') stash.push('.');
+      
+            if (splitedExpr[i] + splitedExpr[i + 1] === '11') stash.push('-');
+      
+            if (splitedExpr[i] === '*') {
+              result.push(' ');
+              return recursion(startIndex + 10, endIndex + 10);
+            }
+          }
+      
+          for (key in MORSE_TABLE) {
+            if (key === stash.join('')) {
+              result.push(MORSE_TABLE[key]);
+            } 
+          }
+          recursion(startIndex + 10, endIndex + 10);
         }
-        slidesContainer.style.transform = `translateX(${currentPosition}%)`;
-    });
+      
+        recursion(0, 10);
+      
+        return result.join('');
+      }
     </code>
 </pre>
                 </div>
@@ -179,7 +202,7 @@
             <div class="english__container container">
                 <div class="english__inner--left">
                     <h2 class="english__title"><b>English</b></h2>
-                    <h3 class="english__subtitle subtitle">To much space for my <b>A2+</b></h3>
+                    <h3 class="english__subtitle subtitle"><b>A2+</b></h3>
                 </div>
                 <div class="english__inner--right">
                     <p>I had been practicing English, when I worked in the USA as an exchange student</p>
