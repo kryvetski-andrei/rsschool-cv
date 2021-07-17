@@ -143,7 +143,6 @@
           if (startIndex === expr.length) return;
       
           for (let i = startIndex; i < endIndex; i = i + 2) {
-      
             if (splitedExpr[i] + splitedExpr[i + 1] === '10') stash.push('.');
       
             if (splitedExpr[i] + splitedExpr[i + 1] === '11') stash.push('-');
