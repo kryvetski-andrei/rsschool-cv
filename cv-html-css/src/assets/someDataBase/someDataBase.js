@@ -27,7 +27,7 @@ export const socialLinksList = [
     isActive: true
   },
   {
-    text: 'ru.linkedin.com/',
+    text: 'ru.linkedin.com/kryvecki',
     link: 'https://ru.linkedin.com/', 
     icon: faLinkedin,
     isActive: true
@@ -42,4 +42,31 @@ export const socialLinksList = [
     icon: faMailBulk,
     isActive: false
   },
+]
+
+export const educationList = [
+  {
+    place: 'Gymnasium №3',
+    date: '2002-2013',
+    location: 'Pinsk',
+    link: 'http://gymn3.pinsk.edu.by/',
+    description: 'Primary and Secondary school',
+    isComplited: true
+  },
+  {
+    place: 'Belarusian National Technical University',
+    date: '2013-2018',
+    location: 'Minsk',
+    link: 'https://bntu.by/',
+    description: 'Major is Civil Engineering',
+    isComplited: true
+  },
+  {
+    place: 'The Rolling Scopes School',
+    date: '2021',
+    location: 'Minsk',
+    link: 'https://rs.school/',
+    description: 'Web development',
+    isComplited: false
+  }
 ]
