@@ -47,16 +47,16 @@ export const socialLinksList = [
 export const educationList = [
   {
     place: 'Gymnasium №3',
-    date: '2002-2013',
-    location: 'Pinsk',
+    date: '2002 - 2013',
+    location: 'Pinsk, Belarus',
     link: 'http://gymn3.pinsk.edu.by/',
     description: 'Primary and Secondary school',
     isComplited: true
   },
   {
     place: 'Belarusian National Technical University',
-    date: '2013-2018',
-    location: 'Minsk',
+    date: '2013 - 2018',
+    location: 'Minsk, Belarus',
     link: 'https://bntu.by/',
     description: 'Major is Civil Engineering',
     isComplited: true
@@ -64,9 +64,53 @@ export const educationList = [
   {
     place: 'The Rolling Scopes School',
     date: '2021',
-    location: 'Minsk',
+    location: 'Minsk, Belarus',
     link: 'https://rs.school/',
     description: 'Web development',
     isComplited: false
   }
+]
+
+export const workAndExpList = [
+  {
+    place: 'Industrial house building rental company',
+    date: '2014',
+    location: 'Minsk, Belarus',
+    link: 'http://mapid.by/',
+    description: 'As a builder',
+    isComplited: true
+  },
+  {
+    place: 'PB Boulangerie Bistro',
+    date: '2016',
+    location: 'South Wellfleet, Massachusetts, USA',
+    link: 'https://pbboulangeriebistro.com/',
+    description: 'As a runner',
+    isComplited: true
+  },
+  {
+    place: 'Stop & Shop',
+    date: '2016',
+    location: 'Orleans, Massachusetts, USA',
+    link: 'https://stopandshop.com/',
+    description: 'As a merchandiser',
+    isComplited: true
+  },
+  {
+    place: 'Border guards',
+    date: '2019 - 2020',
+    location: 'Nizhniy Terebezhov, Belarus',
+    link: 'https://stopandshop.com/',
+    description: 'As a soldier',
+    isComplited: true
+  },
+  {
+    place: '21vek.by',
+    date: '2021 - ...',
+    location: 'Minsk, Belarus',
+    link: 'https://www.21vek.by/',
+    description: 'As a seller',
+    isComplited: false
+  },
+
 ]

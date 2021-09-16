@@ -3,6 +3,7 @@ import "./assets/styles/App.css"
 import About from "./components/About";
 import Education from "./components/Education";
 import SocialLinks from "./components/SocialLinks";
+import WorkAndExp from "./components/WorkAndExp";
 
 function App() {
 
@@ -18,9 +19,10 @@ function App() {
         <div className = "container">
           <section className = "section--left">
             <Education/>
+            <WorkAndExp/>
           </section>
           <section className = "section--right">
-
+            
           </section>
         </div>
         
