@@ -131,7 +131,9 @@ span {
 .section--left {
   width: 366px;
 }
-
+.frame {
+  margin-bottom: 16px;
+}
 .frame__content {
   border-radius: 0 4px 4px 4px;
   border: 1px solid #768390;
@@ -260,6 +262,7 @@ span {
   }
 
   .skill__name {
+    color: #768390;
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
@@ -308,6 +311,7 @@ span {
   justify-content: center;
   align-items: center;
   transform: scale(0);
+  z-index: 10000;
 }
 
 .modal.active {
@@ -343,6 +347,7 @@ pre {
     display: none;
   }
 }
+
 
 
 

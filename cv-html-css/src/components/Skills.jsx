@@ -22,7 +22,7 @@ const Skills = () => {
             setCodeExample(skill.example);        
             setModalActive(true);
           }}>
-            <span className = "skill__name" style = {{color: skill.barColor}}>{skill.name}</span>
+            <span className = "skill__name">{skill.name}</span>
             <div className = "skill__inner">
               <div className = "skill__logo">
                 <FontAwesomeIcon icon = {skill.logo} color = {skill.barColor} />  
