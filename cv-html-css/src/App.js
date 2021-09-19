@@ -6,8 +6,8 @@ import Skills from "./components/Skills";
 import SocialLinks from "./components/SocialLinks";
 import WorkAndExp from "./components/WorkAndExp";
 
-function App() {
 
+function App() {
   return (
     <div className="App">
       <header className = "header">
@@ -29,6 +29,7 @@ function App() {
         </div>
       </main>
     </div>
+    
   );
 }
 

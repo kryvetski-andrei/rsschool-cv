@@ -282,7 +282,7 @@ span {
     background-color: #1c2025;
     border-radius: 4px;
     overflow: hidden;
-    
+
     .skill__bar {
       width: 70%;
       height: 100%;
@@ -295,6 +295,53 @@ span {
     width: 35px;
   }
 
+}
+
+.modal {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+}
+
+.modal.active {
+  transform: scale(1);
+  overflow-y: hidden;
+}
+
+.modal__content {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #22272E;
+  height: 70vh;
+  width: 850px;
+  overflow-y: scroll; 
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+pre {
+  height: 100%;
+  overflow-y: scroll; 
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+.code {
+  height: 100%;
+  overflow-y: scroll; 
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 

@@ -327,4 +327,61 @@ span {
   text-align: right;
   width: 35px;
 }
+
+.modal {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.modal.active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  overflow-y: hidden;
+}
+
+.modal__content {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #22272E;
+  height: 70vh;
+  width: 850px;
+  overflow-y: scroll;
+}
+
+.modal__content::-webkit-scrollbar {
+  display: none;
+}
+
+pre {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+pre::-webkit-scrollbar {
+  display: none;
+}
+
+.code {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.code::-webkit-scrollbar {
+  display: none;
+}
 /*# sourceMappingURL=App.css.map */
