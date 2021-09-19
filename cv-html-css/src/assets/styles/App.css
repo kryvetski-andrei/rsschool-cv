@@ -146,33 +146,33 @@ span {
   width: 366px;
 }
 
-.education {
+.frame__content {
   border-radius: 0 4px 4px 4px;
   border: 1px solid #768390;
   overflow: hidden;
   position: relative;
+  padding: 10px;
 }
 
-.education .education__list {
-  padding: 10px;
+.education__list {
   margin-left: 30px;
 }
 
-.education .education__list .education__item {
+.education__list .education__item {
   position: relative;
   margin-bottom: 20px;
 }
 
-.education .education__list .education__item .education__location {
+.education__list .education__item .education__location {
   font-weight: 600;
 }
 
-.education .education__list .education__item .education__link {
+.education__list .education__item .education__link {
   font-size: 14px;
   text-transform: uppercase;
 }
 
-.education .education__list .education__item .line {
+.education__list .education__item .line {
   border: none;
   height: 65px;
   position: absolute;
@@ -180,15 +180,15 @@ span {
   left: -20px;
 }
 
-.education .education__list .education__item .line--complited {
+.education__list .education__item .line--complited {
   border-left: 2px solid #CDD9E5;
 }
 
-.education .education__list .education__item .line--not-complited {
+.education__list .education__item .line--not-complited {
   border-left: 2px dashed #CDD9E5;
 }
 
-.education .education__list .education__item .dot {
+.education__list .education__item .dot {
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -197,11 +197,11 @@ span {
   left: -29px;
 }
 
-.education .education__list .education__item .dot--complited {
+.education__list .education__item .dot--complited {
   background-color: #CDD9E5;
 }
 
-.education .education__list .education__item .dot--not-complited {
+.education__list .education__item .dot--not-complited {
   border: 1px solid #CDD9E5;
 }
 
@@ -215,33 +215,25 @@ span {
   text-transform: uppercase;
 }
 
-.work {
-  border-radius: 0 4px 4px 4px;
-  border: 1px solid #768390;
-  overflow: hidden;
-  position: relative;
-}
-
-.work .work__list {
-  padding: 10px;
+.work__list {
   margin-left: 30px;
 }
 
-.work .work__list .work__item {
+.work__list .work__item {
   position: relative;
   margin-bottom: 20px;
 }
 
-.work .work__list .work__item .work__location {
+.work__list .work__item .work__location {
   font-weight: 600;
 }
 
-.work .work__list .work__item .work__link {
+.work__list .work__item .work__link {
   font-size: 14px;
   text-transform: uppercase;
 }
 
-.work .work__list .work__item .line {
+.work__list .work__item .line {
   border: none;
   height: 65px;
   position: absolute;
@@ -249,15 +241,15 @@ span {
   left: -20px;
 }
 
-.work .work__list .work__item .line--complited {
+.work__list .work__item .line--complited {
   border-left: 2px solid #CDD9E5;
 }
 
-.work .work__list .work__item .line--not-complited {
+.work__list .work__item .line--not-complited {
   border-left: 2px dashed #CDD9E5;
 }
 
-.work .work__list .work__item .dot {
+.work__list .work__item .dot {
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -266,15 +258,73 @@ span {
   left: -29px;
 }
 
-.work .work__list .work__item .dot--complited {
+.work__list .work__item .dot--complited {
   background-color: #CDD9E5;
 }
 
-.work .work__list .work__item .dot--not-complited {
+.work__list .work__item .dot--not-complited {
   border: 1px solid #CDD9E5;
 }
 
 .section--right {
   width: 366px;
+}
+
+.skills {
+  display: -ms-grid;
+  display: grid;
+  row-gap: 10px;
+}
+
+.skill {
+  border: 1px solid #768390ac;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.skill:hover {
+  background-color: #7683900e;
+  cursor: pointer;
+}
+
+.skill .skill__name {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.skill__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skill__inner .skill__logo {
+  width: 25px;
+  height: 25px;
+}
+
+.skill__inner .skill__bar--wrapper {
+  width: 100%;
+  height: 8px;
+  background-color: #1c2025;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.skill__inner .skill__bar--wrapper .skill__bar {
+  width: 70%;
+  height: 100%;
+  background-color: #ADBAC7;
+}
+
+.skill__inner .skill__persent {
+  text-align: right;
+  width: 35px;
 }
 /*# sourceMappingURL=App.css.map */

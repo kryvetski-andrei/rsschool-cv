@@ -132,59 +132,58 @@ span {
   width: 366px;
 }
 
-.education {
+.frame__content {
   border-radius: 0 4px 4px 4px;
   border: 1px solid #768390;
   overflow: hidden;
   position: relative;
+  padding: 10px;
+}
+   
+.education__list {
+  margin-left: 30px;
+  .education__item {
+    position: relative;
+    margin-bottom: 20px;
 
-  
-  .education__list {
-    padding: 10px;
-    margin-left: 30px;
-    .education__item {
-      position: relative;
-      margin-bottom: 20px;
+    .education__location {
+      font-weight: 600;
+    }
 
-      .education__location {
-        font-weight: 600;
-      }
+    .education__link {
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+    .line {
+      border: none;
+      height: 65px;
+      position: absolute;
+      top: 42px;
+      left: -20px;
+    }
+    .line--complited {
+      border-left: 2px solid #CDD9E5;
+    }
+    .line--not-complited {
+      border-left: 2px dashed #CDD9E5;
+    }
+    .dot {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      position: absolute;
+      top: 22px;
+      left: -29px;
+    }
 
-      .education__link {
-        font-size: 14px;
-        text-transform: uppercase;
-      }
-      .line {
-        border: none;
-        height: 65px;
-        position: absolute;
-        top: 42px;
-        left: -20px;
-      }
-      .line--complited {
-        border-left: 2px solid #CDD9E5;
-      }
-      .line--not-complited {
-        border-left: 2px dashed #CDD9E5;
-      }
-      .dot {
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        position: absolute;
-        top: 22px;
-        left: -29px;
-      }
-
-      .dot--complited {
-        background-color: #CDD9E5;
-      }
-      .dot--not-complited {
-        border: 1px solid #CDD9E5;
-      }
+    .dot--complited {
+      background-color: #CDD9E5;
+    }
+    .dot--not-complited {
+      border: 1px solid #CDD9E5;
     }
   }
-}    
+}  
 
 .title {
   color: #22272E;;
@@ -196,64 +195,109 @@ span {
   text-transform: uppercase;
 }
 
-.work {
-  border-radius: 0 4px 4px 4px;
-  border: 1px solid #768390;
-  overflow: hidden;
-  position: relative;
+.work__list {
 
+  margin-left: 30px;
   
-  .work__list {
-    padding: 10px;
-    margin-left: 30px;
-    .work__item {
-      position: relative;
-      margin-bottom: 20px;
+  .work__item {
+    position: relative;
+    margin-bottom: 20px;
 
-      .work__location {
-        font-weight: 600;
-      }
+    .work__location {
+      font-weight: 600;
+    }
 
-      .work__link {
-        font-size: 14px;
-        text-transform: uppercase;
-      }
-      .line {
-        border: none;
-        height: 65px;
-        position: absolute;
-        top: 42px;
-        left: -20px;
-      }
-      .line--complited {
-        border-left: 2px solid #CDD9E5;
-      }
-      .line--not-complited {
-        border-left: 2px dashed #CDD9E5;
-      }
-      .dot {
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        position: absolute;
-        top: 22px;
-        left: -29px;
-      }
+    .work__link {
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+    .line {
+      border: none;
+      height: 65px;
+      position: absolute;
+      top: 42px;
+      left: -20px;
+    }
+    .line--complited {
+      border-left: 2px solid #CDD9E5;
+    }
+    .line--not-complited {
+      border-left: 2px dashed #CDD9E5;
+    }
+    .dot {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      position: absolute;
+      top: 22px;
+      left: -29px;
+    }
 
-      .dot--complited {
-        background-color: #CDD9E5;
-      }
-      .dot--not-complited {
-        border: 1px solid #CDD9E5;
-      }
+    .dot--complited {
+      background-color: #CDD9E5;
+    }
+    .dot--not-complited {
+      border: 1px solid #CDD9E5;
     }
   }
 }
 
 .section--right {
   width: 366px;
+}
+.skills {
+  display: grid;
+  row-gap: 10px;
+}
+.skill {
+  border: 1px solid #768390ac;
+  padding: 5px;
+  border-radius: 4px;
+  &:hover {
+    background-color: #7683900e;
+    cursor: pointer;
+
+  }
+
+  .skill__name {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+}
+.skill__inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .skill__logo {
+    width: 25px;
+    height: 25px;
+
+  }
+
+  .skill__bar--wrapper {
+    width: 100%;
+    height: 8px;
+    background-color: #1c2025;
+    border-radius: 4px;
+    overflow: hidden;
+    
+    .skill__bar {
+      width: 70%;
+      height: 100%;
+      background-color: #ADBAC7;
+    }
+  }
+
+  .skill__persent {
+    text-align: right;
+    width: 35px;
+  }
 
 }
+
+
 
 
 

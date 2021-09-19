@@ -1,4 +1,7 @@
-import { faGithub, faInstagram, faVk, faFacebook, faLinkedin, faDiscord } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faInstagram, faVk, faFacebook, faLinkedin, faDiscord,
+         faHtml5, faCss3, faSass, faJs, faNodeJs, faReact, faAngular        
+} from '@fortawesome/free-brands-svg-icons'
+
 import { faMailBulk } from '@fortawesome/free-solid-svg-icons'
 
 export const socialLinksList = [
@@ -112,5 +115,14 @@ export const workAndExpList = [
     description: 'As a seller',
     isComplited: false
   },
+]
 
+export const skillsList = [
+  {name: 'html', logo: faHtml5, progress: 80, barColor: '#e34c26'},
+  {name: 'css', logo: faCss3, progress: 70, barColor: '#264de4'},
+  {name: 'sass', logo: faSass, progress: 65, barColor: '#cc6699'},
+  {name: 'js', logo: faJs, progress: 45, barColor: '#f0db4f'},
+  {name: 'node js', logo: faNodeJs, progress: 3, barColor: '#3c873a'},
+  {name: 'react', logo: faReact, progress: 10, barColor: '#61dbfb'},
+  {name: 'angular', logo: faAngular, progress: 3, barColor: '#a6120d'},
 ]

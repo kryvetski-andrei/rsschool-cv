@@ -2,6 +2,7 @@ import React from "react";
 import "./assets/styles/App.css"
 import About from "./components/About";
 import Education from "./components/Education";
+import Skills from "./components/Skills";
 import SocialLinks from "./components/SocialLinks";
 import WorkAndExp from "./components/WorkAndExp";
 
@@ -23,6 +24,7 @@ function App() {
             <WorkAndExp/>
           </section>
           <section className = "section--right">
+            <Skills/>
           </section>
         </div>
       </main>
