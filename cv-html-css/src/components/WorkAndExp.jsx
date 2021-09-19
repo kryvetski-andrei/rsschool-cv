@@ -1,10 +1,10 @@
 import React from "react";
 import { workAndExpList } from "../assets/someDataBase/someDataBase";
+import Frame from "./Frame";
 
 const WorkAndExp = () => {
   return (
-    <div className="work__wrapper">
-      <div className = "title">Work &amp; Experience</div>
+    <Frame title = "Work &amp; Exp">
       <div className = "work">
         <ul className = "work__list">
           {
@@ -37,8 +37,7 @@ const WorkAndExp = () => {
           }
         </ul>
       </div>
-
-    </div>
+    </Frame>
   )
 }
 

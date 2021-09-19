@@ -10,11 +10,12 @@ function App() {
   return (
     <div className="App">
       <header className = "header">
-        <div className = "container">
+        <div className = "container container__header">
           <About/>
           <SocialLinks/>
         </div>
       </header>
+
       <main>
         <div className = "container">
           <section className = "section--left">
@@ -22,10 +23,8 @@ function App() {
             <WorkAndExp/>
           </section>
           <section className = "section--right">
-            
           </section>
         </div>
-        
       </main>
     </div>
   );

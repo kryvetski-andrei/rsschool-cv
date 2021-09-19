@@ -1,10 +1,10 @@
 import React from "react";
 import { educationList } from "../assets/someDataBase/someDataBase";
+import Frame from "./Frame";
 
 const Education = () => {
   return (
-    <div className="education__wrapper">
-      <div className = "title">Education</div>
+    <Frame title = "Education">
       <div className = "education">
         <ul className = "education__list">
           {
@@ -37,8 +37,7 @@ const Education = () => {
           }
         </ul>
       </div>
-
-    </div>
+    </Frame>      
   )
 }
 
