@@ -11,6 +11,9 @@ body {
   background-color: #22272E;
   font-family: 'Tajawal', sans-serif;
   color: #768390;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 p {
@@ -348,8 +351,20 @@ pre {
   }
 }
 
+.self-introduction {
+  padding: 0;
+  height: 400px;
+}
 
+.projects__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  gap: 10px;
 
-
+  .project {
+    height: 100%;
+  }
+}
 
 

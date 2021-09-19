@@ -12,6 +12,10 @@ body {
   color: #768390;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 p {
   font-size: 14px;
   line-height: 18px;
@@ -389,5 +393,24 @@ pre::-webkit-scrollbar {
 
 .code::-webkit-scrollbar {
   display: none;
+}
+
+.self-introduction {
+  padding: 0;
+  height: 400px;
+}
+
+.projects__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 200px 200px;
+      grid-template-rows: 200px 200px;
+  gap: 10px;
+}
+
+.projects__list .project {
+  height: 100%;
 }
 /*# sourceMappingURL=App.css.map */

@@ -123,8 +123,8 @@ export const skillsList = [
     logo: faHtml5,
     progress: 80,
     barColor: '#e34c26',
-    example: `
-      <!DOCTYPE html>
+    example: 
+     `<!DOCTYPE html>
       <html lang="en">
       <head>
         <meta charset="UTF-8">
@@ -239,8 +239,13 @@ export const skillsList = [
     `,
     lang: 'html'
   },
-  {name: 'css', logo: faCss3, progress: 70, barColor: '#264de4', example: `
-  body {
+  {
+    name: 'css',
+    logo: faCss3, 
+    progress: 70, 
+    barColor: '#264de4', 
+    example: 
+   `body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -301,9 +306,15 @@ export const skillsList = [
     color: #fff;
     cursor: pointer;
   }
-  `, lang: 'css'},
-  {name: 'sass', logo: faSass, progress: 65, barColor: '#cc6699', example: `
-  :root {
+  `, 
+  lang: 'css'
+  },
+  {name: 'sass', 
+  logo: faSass, 
+  progress: 65,
+  barColor: '#cc6699',
+  example: 
+  `:root {
     --primary-box-color: #112055;
     --primary-box-text: #fff;
     --primary-box-lighter: #357b70;
@@ -358,15 +369,16 @@ export const skillsList = [
       box-shadow: none;
     }
   }
-  `
-  , lang: 'scss'},
+  `, 
+  lang: 'scss'
+  },
   {
     name: 'javascript',
     logo: faJs, 
     progress: 45,
     barColor: '#f0db4f',
-    example: `
-    class Node {
+    example: 
+    `class Node {
       constructor(value, left = null, right = null){
         this.value = value;
         this.left = left;
@@ -394,11 +406,23 @@ export const skillsList = [
       
       return;
     }
-  `, 
-  lang: 'javascript'
+    `, 
+    lang: 'javascript'
   },
-  {name: 'node js', logo: faNodeJs, progress: 3, barColor: '#3c873a', example: '//no code yet', lang: 'javascript'},
-  {name: 'react', logo: faReact, progress: 10, barColor: '#61dbfb', example: 
+  {
+    name: 'node js', 
+    logo: faNodeJs, 
+    progress: 3, 
+    barColor: '#3c873a', 
+    example: '//no code yet', 
+    lang: 'javascript'
+  },
+  {
+    name: 'react', 
+    logo: faReact, 
+    progress: 10, 
+    barColor: '#61dbfb', 
+    example: 
   `import React from "react";
   import MyButton from "./UI/button/SimpleButton/Button";
   import { useHistory } from "react-router-dom";
@@ -424,8 +448,73 @@ export const skillsList = [
     )
   }
   
-  export default PostItem;
-  `, 
+  export default PostItem;`, 
   lang: 'javascript'},
-  {name: 'angular', logo: faAngular, progress: 3, barColor: '#a6120d', example: '//no code yet', lang: 'javascript'},
+  {
+    name: 'angular', 
+    logo: faAngular, 
+    progress: 3, 
+    barColor: '#a6120d', 
+    example: '//no code yet', 
+    lang: 'javascript'
+  },
+]
+
+
+export const projectsList = [
+  {
+    name: "wildlife",
+    tags: ['html', 'css', 'not relevant'],
+    link: 'https://github.com/kryvetski-andrei',
+    preview: '#e34c26'
+  },
+  {
+    name: "online-zoo",
+    tags: ['html', 'css', 'javascript', 'not relevant'],
+    link: 'https://github.com/kryvetski-andrei',
+    preview: '#e34c26'
+  },
+  {
+    name: "posts",
+    tags: ['html', 'css', 'javascript', 'react'],
+    link: 'https://github.com/kryvetski-andrei',
+    preview: '#e34c26'
+  },
+  {
+    name: "piano",
+    tags: ['html', 'css', 'javascript', 'not relevant'],
+    link: 'https://github.com/kryvetski-andrei',
+    preview: '#e34c26'
+  },
+  {
+    name: "js-clock",
+    tags: ['html', 'css', 'javascript', 'not relevant'],
+    link: 'https://github.com/kryvetski-andrei',
+    preview: '#e34c26'
+  },
+  {
+    name: "some",
+    tags: ['html', 'css', 'javascript', 'react', 'nodejs', 'not relevant'],
+    link: 'https://github.com/kryvetski-andrei',
+    preview: '#e34c26'
+  },
+  {
+    name: "some",
+    tags: ['html', 'css', 'javascript', 'react', 'nodejs', 'not relevant'],
+    link: 'https://github.com/kryvetski-andrei',
+    preview: '#e34c26'
+  },
+  {
+    name: "some",
+    tags: ['html', 'css', 'javascript', 'react', 'nodejs', 'not relevant'],
+    link: 'https://github.com/kryvetski-andrei',
+    preview: '#e34c26'
+  },
+  {
+    name: "some",
+    tags: ['html', 'css', 'javascript', 'react', 'nodejs', 'not relevant'],
+    link: 'https://github.com/kryvetski-andrei',
+    preview: '#e34c26'
+  },
+
 ]

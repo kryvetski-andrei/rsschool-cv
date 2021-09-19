@@ -2,6 +2,8 @@ import React from "react";
 import "./assets/styles/App.css"
 import About from "./components/About";
 import Education from "./components/Education";
+import Frame from "./components/Frame";
+import Projects from "./components/Projects";
 import SelfIntro from "./components/SelfIntro";
 import Skills from "./components/Skills";
 import SocialLinks from "./components/SocialLinks";
@@ -23,6 +25,7 @@ function App() {
           <section className = "section--left">
             <Education/>
             <WorkAndExp/>
+            <Projects/>
           </section>
           <section className = "section--right">
             <Skills/>
