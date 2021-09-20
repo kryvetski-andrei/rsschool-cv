@@ -12,7 +12,7 @@ const SocialLinks = () => {
             item.isActive ?
             (
               <li className = "social__item">
-                <a className = "social__link" href={item.link}>
+                <a className = "social__link" href={item.link} target = "_blank" rel="noreferrer">
                   {item.text}
                 </a>
                 <div className = "icon icon-github">

@@ -61,7 +61,7 @@ export const educationList = [
     date: '2013 - 2018',
     location: 'Minsk, Belarus',
     link: 'https://bntu.by/',
-    description: 'Major is Civil Engineering',
+    description: 'Major Civil Engineering',
     isComplited: true
   },
   {
@@ -88,7 +88,7 @@ export const workAndExpList = [
     date: '2016',
     location: 'South Wellfleet, Massachusetts, USA',
     link: 'https://pbboulangeriebistro.com/',
-    description: 'As a runner',
+    description: 'As a J1 student',
     isComplited: true
   },
   {
@@ -96,14 +96,14 @@ export const workAndExpList = [
     date: '2016',
     location: 'Orleans, Massachusetts, USA',
     link: 'https://stopandshop.com/',
-    description: 'As a merchandiser',
+    description: 'As a J1 student',
     isComplited: true
   },
   {
     place: 'Border guards',
     date: '2019 - 2020',
     location: 'Nizhniy Terebezhov, Belarus',
-    link: 'https://stopandshop.com/',
+    link: 'https://gpk.gov.by/',
     description: 'As a soldier',
     isComplited: true
   },

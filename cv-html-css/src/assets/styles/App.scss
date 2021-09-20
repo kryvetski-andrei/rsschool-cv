@@ -99,8 +99,6 @@ span {
   }
 
   .social {
-    // max-width: 252px;
-    // width: 100%;
     height: 100%;
     display: flex;
     justify-content: flex-end;
@@ -504,4 +502,13 @@ pre {
 .eng-lvl {
   text-align: center;
   font-size: 82.2px;
+}
+.container__footer {
+  justify-content: center;
+  align-items: center;
+}
+.rsschool-logo {
+  width: 150px;
+  height: 35px;
+  background: center center no-repeat;
 }

@@ -5,6 +5,7 @@ import Achievements from "./components/Achievements";
 import Education from "./components/Education";
 import English from "./components/English";
 import Projects from "./components/Projects";
+import Rsschool from "./components/Rsschool";
 import SelfIntro from "./components/SelfIntro";
 import Skills from "./components/Skills";
 import SocialLinks from "./components/SocialLinks";
@@ -36,6 +37,10 @@ function App() {
           </section>
         </div>
       </main>
+
+      <footer>
+        <Rsschool/>
+      </footer>
     </div>
     
   );

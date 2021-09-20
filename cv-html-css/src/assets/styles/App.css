@@ -587,4 +587,19 @@ pre::-webkit-scrollbar {
   text-align: center;
   font-size: 82.2px;
 }
+
+.container__footer {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rsschool-logo {
+  width: 150px;
+  height: 35px;
+  background: center center no-repeat;
+}
 /*# sourceMappingURL=App.css.map */

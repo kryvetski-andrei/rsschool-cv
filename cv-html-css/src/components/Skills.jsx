@@ -36,6 +36,7 @@ const Skills = () => {
         )
       }
       </ul>
+      
       <Modal active = {modalActive} setActive = {setModalActive}>
         <CodeExample code = {codeExample} lang = {codeLeng}/> 
       </Modal>
