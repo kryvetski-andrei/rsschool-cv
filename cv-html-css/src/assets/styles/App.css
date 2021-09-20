@@ -7,8 +7,8 @@
 }
 
 body {
-  background-color: #22272E;
-  font-family: 'Tajawal', sans-serif;
+  background-color: #22272e;
+  font-family: "Tajawal", sans-serif;
   color: #768390;
 }
 
@@ -30,11 +30,11 @@ a {
   display: block;
   font-size: 12px;
   text-decoration: none;
-  color: #ADBAC7;
+  color: #adbac7;
 }
 
 a:hover {
-  color: #CDD9E5;
+  color: #cdd9e5;
   cursor: pointer;
 }
 
@@ -79,13 +79,13 @@ span {
   margin: 0;
   padding: 0;
   line-height: 30px;
-  color: #CDD9E5;
+  color: #cdd9e5;
 }
 
 .header .about .about__body .about__career-objective {
   font-size: 24px;
   margin: 10px 0;
-  color: #ADBAC7;
+  color: #adbac7;
 }
 
 .header .about .about__body .about__avatar {
@@ -138,7 +138,7 @@ span {
 }
 
 .header .social .social__list .social__item:hover .icon {
-  color: #CDD9E5;
+  color: #cdd9e5;
 }
 
 .header .social .social__list .social__item .icon {
@@ -190,11 +190,11 @@ span {
 }
 
 .education__list .education__item .line--complited {
-  border-left: 2px solid #CDD9E5;
+  border-left: 2px solid #cdd9e5;
 }
 
 .education__list .education__item .line--not-complited {
-  border-left: 2px dashed #CDD9E5;
+  border-left: 2px dashed #cdd9e5;
 }
 
 .education__list .education__item .dot {
@@ -207,15 +207,15 @@ span {
 }
 
 .education__list .education__item .dot--complited {
-  background-color: #CDD9E5;
+  background-color: #cdd9e5;
 }
 
 .education__list .education__item .dot--not-complited {
-  border: 1px solid #CDD9E5;
+  border: 1px solid #cdd9e5;
 }
 
 .title {
-  color: #22272E;
+  color: #22272e;
   background: #768390;
   padding: 0px 10px;
   border-radius: 6px 6px 0 0;
@@ -252,11 +252,11 @@ span {
 }
 
 .work__list .work__item .line--complited {
-  border-left: 2px solid #CDD9E5;
+  border-left: 2px solid #cdd9e5;
 }
 
 .work__list .work__item .line--not-complited {
-  border-left: 2px dashed #CDD9E5;
+  border-left: 2px dashed #cdd9e5;
 }
 
 .work__list .work__item .dot {
@@ -269,11 +269,11 @@ span {
 }
 
 .work__list .work__item .dot--complited {
-  background-color: #CDD9E5;
+  background-color: #cdd9e5;
 }
 
 .work__list .work__item .dot--not-complited {
-  border: 1px solid #CDD9E5;
+  border: 1px solid #cdd9e5;
 }
 
 .section--right {
@@ -331,7 +331,7 @@ span {
 .skill__inner .skill__bar--wrapper .skill__bar {
   width: 70%;
   height: 100%;
-  background-color: #ADBAC7;
+  background-color: #adbac7;
 }
 
 .skill__inner .skill__persent {
@@ -369,7 +369,7 @@ span {
 .modal__content {
   padding: 10px;
   border-radius: 4px;
-  background-color: #22272E;
+  background-color: #22272e;
   height: 70vh;
   width: 850px;
   overflow-y: scroll;

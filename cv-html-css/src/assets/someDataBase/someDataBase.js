@@ -1,130 +1,157 @@
-import { faGithub, faInstagram, faVk, faFacebook, faLinkedin, faDiscord,
-         faHtml5, faCss3, faSass, faJs, faNodeJs, faReact, faAngular        
-} from '@fortawesome/free-brands-svg-icons'
+import {
+  faGithub,
+  faInstagram,
+  faVk,
+  faFacebook,
+  faLinkedin,
+  faDiscord,
+  faHtml5,
+  faCss3,
+  faSass,
+  faJs,
+  faNodeJs,
+  faReact,
+  faAngular,
+} from "@fortawesome/free-brands-svg-icons";
 
-import { faMailBulk } from '@fortawesome/free-solid-svg-icons'
+import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 
 export const socialLinksList = [
   {
-    text: 'github.com/kryvetski-andrei',
-    link: 'https://github.com/kryvetski-andrei', 
+    id: 1,
+    text: "github.com/kryvetski-andrei",
+    link: "https://github.com/kryvetski-andrei",
     icon: faGithub,
-    isActive: true
+    isActive: true,
   },
   {
-    text: 'instagram.com/kryvecki',
-    link: 'https://www.instagram.com/kryvecki/', 
+    id: 2,
+    text: "instagram.com/kryvecki",
+    link: "https://www.instagram.com/kryvecki/",
     icon: faInstagram,
-    isActive: true
+    isActive: true,
   },
   {
-    text: 'vk.com/kryvecki',
-    link: 'https://vk.com/kryvecki', 
+    id: 3,
+    text: "vk.com/kryvecki",
+    link: "https://vk.com/kryvecki",
     icon: faVk,
-    isActive: true
+    isActive: true,
   },
   {
-    text: 'facebook.com/kryvecki',
-    link: 'https://www.facebook.com/', 
+    id: 4,
+    text: "facebook.com/kryvecki",
+    link: "https://www.facebook.com/",
     icon: faFacebook,
-    isActive: true
+    isActive: true,
   },
   {
-    text: 'ru.linkedin.com/kryvecki',
-    link: 'https://ru.linkedin.com/', 
+    id: 5,
+    text: "ru.linkedin.com/kryvecki",
+    link: "https://ru.linkedin.com/",
     icon: faLinkedin,
-    isActive: true
+    isActive: true,
   },
   {
-    text: 'andrei-kryvetski#8943',
+    id: 6,
+    text: "andrei-kryvetski#8943",
     icon: faDiscord,
-    isActive: false
+    isActive: false,
   },
   {
-    text: 'kryvetskistud@gmail.com',
+    id: 7,
+    text: "kryvetskistud@gmail.com",
     icon: faMailBulk,
-    isActive: false
+    isActive: false,
   },
-]
+];
 
 export const educationList = [
   {
-    place: 'Gymnasium №3',
-    date: '2002 - 2013',
-    location: 'Pinsk, Belarus',
-    link: 'http://gymn3.pinsk.edu.by/',
-    description: 'Primary and Secondary school',
-    isComplited: true
+    id: 1,
+    place: "Gymnasium №3",
+    date: "2002 - 2013",
+    location: "Pinsk, Belarus",
+    link: "http://gymn3.pinsk.edu.by/",
+    description: "Primary and Secondary school",
+    isComplited: true,
   },
   {
-    place: 'Belarusian National Technical University',
-    date: '2013 - 2018',
-    location: 'Minsk, Belarus',
-    link: 'https://bntu.by/',
-    description: 'Major Civil Engineering',
-    isComplited: true
+    id: 2,
+    place: "Belarusian National Technical University",
+    date: "2013 - 2018",
+    location: "Minsk, Belarus",
+    link: "https://bntu.by/",
+    description: "Major Civil Engineering",
+    isComplited: true,
   },
   {
-    place: 'The Rolling Scopes School',
-    date: '2021',
-    location: 'Minsk, Belarus',
-    link: 'https://rs.school/',
-    description: 'Web development',
-    isComplited: false
-  }
-]
+    id: 3,
+    place: "The Rolling Scopes School",
+    date: "2021",
+    location: "Minsk, Belarus",
+    link: "https://rs.school/",
+    description: "Web development",
+    isComplited: false,
+  },
+];
 
 export const workAndExpList = [
   {
-    place: 'Industrial house building rental company',
-    date: '2014',
-    location: 'Minsk, Belarus',
-    link: 'http://mapid.by/',
-    description: 'As a builder',
-    isComplited: true
+    id: 1,
+    place: "Industrial house building rental company",
+    date: "2014",
+    location: "Minsk, Belarus",
+    link: "http://mapid.by/",
+    description: "As a builder",
+    isComplited: true,
   },
   {
-    place: 'PB Boulangerie Bistro',
-    date: '2016',
-    location: 'South Wellfleet, Massachusetts, USA',
-    link: 'https://pbboulangeriebistro.com/',
-    description: 'As a J1 student',
-    isComplited: true
+    id: 2,
+    place: "PB Boulangerie Bistro",
+    date: "2016",
+    location: "South Wellfleet, Massachusetts, USA",
+    link: "https://pbboulangeriebistro.com/",
+    description: "As a J1 student",
+    isComplited: true,
   },
   {
-    place: 'Stop & Shop',
-    date: '2016',
-    location: 'Orleans, Massachusetts, USA',
-    link: 'https://stopandshop.com/',
-    description: 'As a J1 student',
-    isComplited: true
+    id: 3,
+    place: "Stop & Shop",
+    date: "2016",
+    location: "Orleans, Massachusetts, USA",
+    link: "https://stopandshop.com/",
+    description: "As a J1 student",
+    isComplited: true,
   },
   {
-    place: 'Border guards',
-    date: '2019 - 2020',
-    location: 'Nizhniy Terebezhov, Belarus',
-    link: 'https://gpk.gov.by/',
-    description: 'As a soldier',
-    isComplited: true
+    id: 4,
+    place: "Border guards",
+    date: "2019 - 2020",
+    location: "Nizhniy Terebezhov, Belarus",
+    link: "https://gpk.gov.by/",
+    description: "As a soldier",
+    isComplited: true,
   },
   {
-    place: '21vek.by',
-    date: '2021 - ...',
-    location: 'Minsk, Belarus',
-    link: 'https://www.21vek.by/',
-    description: 'As a seller',
-    isComplited: false
+    id: 5,
+    place: "21vek.by",
+    date: "2021 - ...",
+    location: "Minsk, Belarus",
+    link: "https://www.21vek.by/",
+    description: "As a seller",
+    isComplited: false,
   },
-]
+];
 
 export const skillsList = [
   {
-    name: 'html',
+    id: 1,
+    name: "html",
     logo: faHtml5,
     progress: 80,
-    barColor: '#e34c26',
-    example: 
-     `<!DOCTYPE html>
+    barColor: "#e34c26",
+    example: `<!DOCTYPE html>
       <html lang="en">
       <head>
         <meta charset="UTF-8">
@@ -237,15 +264,15 @@ export const skillsList = [
       </body>
       </html>
     `,
-    lang: 'html'
+    lang: "html",
   },
   {
-    name: 'css',
-    logo: faCss3, 
-    progress: 70, 
-    barColor: '#264de4', 
-    example: 
-   `body {
+    id: 2,
+    name: "css",
+    logo: faCss3,
+    progress: 70,
+    barColor: "#264de4",
+    example: `body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -306,79 +333,80 @@ export const skillsList = [
     color: #fff;
     cursor: pointer;
   }
-  `, 
-  lang: 'css'
-  },
-  {name: 'sass', 
-  logo: faSass, 
-  progress: 65,
-  barColor: '#cc6699',
-  example: 
-  `:root {
-    --primary-box-color: #112055;
-    --primary-box-text: #fff;
-    --primary-box-lighter: #357b70;
-    --primary-box-darker: #357b70;
-    
-    --secondary-box-color: #4f9d92;
-    --secondary-box-text: #000;
-    
-    --padding : 10px;
-    --border-rad: 5px;
-    --shadow: 4px 3px 19px 0px rgba(0,0,0,0.3);
-  }
-  
-  $primary-box-colors: #112055;
-  $primary-box-color-lighter: lighten($primary-box-colors, 20%);
-  $primary-box-color-darker: darken($primary-box-colors, 10%); 
-  
-  .box__wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
-    padding: 20px;
-    font-family: sans-serif;
-    div:hover {
-      box-shadow: none;
-    }
-  }:root {
-    --primary-box-color: #112055;
-    --primary-box-text: #fff;
-    --primary-box-lighter: #357b70;
-    --primary-box-darker: #357b70;
-    
-    --secondary-box-color: #4f9d92;
-    --secondary-box-text: #000;
-    
-    --padding : 10px;
-    --border-rad: 5px;
-    --shadow: 4px 3px 19px 0px rgba(0,0,0,0.3);
-  }
-  
-  $primary-box-colors: #112055;
-  $primary-box-color-lighter: lighten($primary-box-colors, 20%);
-  $primary-box-color-darker: darken($primary-box-colors, 10%); 
-  
-  .box__wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
-    padding: 20px;
-    font-family: sans-serif;
-    div:hover {
-      box-shadow: none;
-    }
-  }
-  `, 
-  lang: 'scss'
+  `,
+    lang: "css",
   },
   {
-    name: 'javascript',
-    logo: faJs, 
+    id: 3,
+    name: "sass",
+    logo: faSass,
+    progress: 65,
+    barColor: "#cc6699",
+    example: `:root {
+      --primary-box-color: #112055;
+      --primary-box-text: #fff;
+      --primary-box-lighter: #357b70;
+      --primary-box-darker: #357b70;
+      
+      --secondary-box-color: #4f9d92;
+      --secondary-box-text: #000;
+      
+      --padding : 10px;
+      --border-rad: 5px;
+      --shadow: 4px 3px 19px 0px rgba(0,0,0,0.3);
+    }
+    
+    $primary-box-colors: #112055;
+    $primary-box-color-lighter: lighten($primary-box-colors, 20%);
+    $primary-box-color-darker: darken($primary-box-colors, 10%); 
+    
+    .box__wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 20px;
+      padding: 20px;
+      font-family: sans-serif;
+      div:hover {
+        box-shadow: none;
+      }
+    }:root {
+      --primary-box-color: #112055;
+      --primary-box-text: #fff;
+      --primary-box-lighter: #357b70;
+      --primary-box-darker: #357b70;
+      
+      --secondary-box-color: #4f9d92;
+      --secondary-box-text: #000;
+      
+      --padding : 10px;
+      --border-rad: 5px;
+      --shadow: 4px 3px 19px 0px rgba(0,0,0,0.3);
+    }
+    
+    $primary-box-colors: #112055;
+    $primary-box-color-lighter: lighten($primary-box-colors, 20%);
+    $primary-box-color-darker: darken($primary-box-colors, 10%); 
+    
+    .box__wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 20px;
+      padding: 20px;
+      font-family: sans-serif;
+      div:hover {
+        box-shadow: none;
+      }
+    }
+    `,
+    lang: "scss",
+  },
+  {
+    id: 4,
+    name: "javascript",
+    logo: faJs,
     progress: 45,
-    barColor: '#f0db4f',
-    example: 
-    `class Node {
+    barColor: "#f0db4f",
+    example: `class Node {
       constructor(value, left = null, right = null){
         this.value = value;
         this.left = left;
@@ -406,24 +434,25 @@ export const skillsList = [
       
       return;
     }
-    `, 
-    lang: 'javascript'
+    `,
+    lang: "javascript",
   },
   {
-    name: 'node js', 
-    logo: faNodeJs, 
-    progress: 3, 
-    barColor: '#3c873a', 
-    example: '//no code yet', 
-    lang: 'javascript'
+    id: 5,
+    name: "node js",
+    logo: faNodeJs,
+    progress: 3,
+    barColor: "#3c873a",
+    example: "//no code yet",
+    lang: "javascript",
   },
   {
-    name: 'react', 
-    logo: faReact, 
-    progress: 10, 
-    barColor: '#61dbfb', 
-    example: 
-  `import React from "react";
+    id: 6,
+    name: "react",
+    logo: faReact,
+    progress: 10,
+    barColor: "#61dbfb",
+    example: `import React from "react";
   import MyButton from "./UI/button/SimpleButton/Button";
   import { useHistory } from "react-router-dom";
   
@@ -448,103 +477,106 @@ export const skillsList = [
     )
   }
   
-  export default PostItem;`, 
-  lang: 'javascript'},
-  {
-    name: 'angular', 
-    logo: faAngular, 
-    progress: 3, 
-    barColor: '#a6120d', 
-    example: '//no code yet', 
-    lang: 'javascript'
+  export default PostItem;`,
+    lang: "javascript",
   },
-]
+  {
+    id: 7,
+    name: "angular",
+    logo: faAngular,
+    progress: 3,
+    barColor: "#a6120d",
+    example: "//no code yet",
+    lang: "javascript",
+  },
+];
 
 export const projectsList = [
   {
+    id: 1,
     name: "wildlife",
-    link: 'https://github.com/kryvetski-andrei',
-    preview: '#e34c26',
+    link: "https://github.com/kryvetski-andrei",
+    preview: "#e34c26",
 
     tags: [
-      {name: 'html', color: '#e34c26'},
-      {name: 'css', color: '#264de4'},
-      {name: 'not relevat', color: '#990000'},
+      { name: "html", color: "#e34c26" },
+      { name: "css", color: "#264de4" },
+      { name: "not relevat", color: "#990000" },
     ],
-
   },
   {
+    id: 2,
     name: "online-zoo",
     tags: [
-      {name: 'html', color: '#e34c26'},
-      {name: 'css', color: '#264de4'},
-      {name: 'js', color: '#f0db4f'},
-      {name: 'not relevat', color: '#990000'},
+      { name: "html", color: "#e34c26" },
+      { name: "css", color: "#264de4" },
+      { name: "js", color: "#f0db4f" },
+      { name: "not relevat", color: "#990000" },
     ],
-    link: 'https://rolling-scopes-school.github.io/kryvetski-andrei-JSFE2021Q1/online-zoo/',
+    link: "https://rolling-scopes-school.github.io/kryvetski-andrei-JSFE2021Q1/online-zoo/",
   },
   {
+    id: 3,
     name: "react-posts",
     tags: [
-      {name: 'html', color: '#e34c26'},
-      {name: 'css', color: '#264de4'},
-      {name: 'js', color: '#f0db4f'},
-      {name: 'react', color: '#61dbfb'},
+      { name: "html", color: "#e34c26" },
+      { name: "css", color: "#264de4" },
+      { name: "js", color: "#f0db4f" },
+      { name: "react", color: "#61dbfb" },
     ],
-    link: 'https://elated-roentgen-1ffca5.netlify.app/',
+    link: "https://elated-roentgen-1ffca5.netlify.app/",
   },
   {
+    id: 4,
     name: "virtual-piano",
     tags: [
-      {name: 'html', color: '#e34c26'},
-      {name: 'css', color: '#264de4'},
-      {name: 'js', color: '#f0db4f'},
-      {name: 'not relevat', color: '#990000'},
+      { name: "html", color: "#e34c26" },
+      { name: "css", color: "#264de4" },
+      { name: "js", color: "#f0db4f" },
+      { name: "not relevat", color: "#990000" },
     ],
-    link: 'https://rolling-scopes-school.github.io/kryvetski-andrei-JSFE2021Q1/virtual-piano/',
+    link: "https://rolling-scopes-school.github.io/kryvetski-andrei-JSFE2021Q1/virtual-piano/",
   },
   {
+    id: 5,
     name: "js-clock",
     tags: [
-      {name: 'html', color: '#e34c26'},
-      {name: 'css', color: '#264de4'},
-      {name: 'js', color: '#f0db4f'},
-      {name: 'not relevat', color: '#990000'},
+      { name: "html", color: "#e34c26" },
+      { name: "css", color: "#264de4" },
+      { name: "js", color: "#f0db4f" },
+      { name: "not relevat", color: "#990000" },
     ],
-    link: 'https://rolling-scopes-school.github.io/kryvetski-andrei-JSFEPRESCHOOL/js-clock/',
+    link: "https://rolling-scopes-school.github.io/kryvetski-andrei-JSFEPRESCHOOL/js-clock/",
   },
   {
+    id: 6,
     name: "photo-filter",
     tags: [
-      {name: 'html', color: '#e34c26'},
-      {name: 'css', color: '#264de4'},
-      {name: 'js', color: '#f0db4f'},
-      {name: 'not relevat', color: '#990000'},
+      { name: "html", color: "#e34c26" },
+      { name: "css", color: "#264de4" },
+      { name: "js", color: "#f0db4f" },
+      { name: "not relevat", color: "#990000" },
     ],
-    link: 'https://rolling-scopes-school.github.io/kryvetski-andrei-JSFE2021Q1/photo-filter/',
+    link: "https://rolling-scopes-school.github.io/kryvetski-andrei-JSFE2021Q1/photo-filter/",
   },
   {
+    id: 7,
     name: "onliner",
-    tags: [
-      {name: 'example', color: '#ae00ff'},
-    ],
-    link: 'https://www.onliner.by/',
+    tags: [{ name: "example", color: "#ae00ff" }],
+    link: "https://www.onliner.by/",
   },
   {
+    id: 8,
     name: "kinopoisk",
-    tags: [
-      {name: 'example', color: '#ae00ff'},
-    ],
-    link: 'https://www.kinopoisk.ru/',
+    tags: [{ name: "example", color: "#ae00ff" }],
+    link: "https://www.kinopoisk.ru/",
   },
   {
+    id: 9,
     name: "facebook",
-    tags: [
-      {name: 'example', color: '#ae00ff'},
-    ],
-    link: 'https://ru-ru.facebook.com/',
+    tags: [{ name: "example", color: "#ae00ff" }],
+    link: "https://ru-ru.facebook.com/",
   },
+];
 
-]
-
-export const achievementsList = ['rsschool-stage0', 'memas', 'memas']
+export const achievementsList = ["rsschool-stage0", "memas", "memas"];

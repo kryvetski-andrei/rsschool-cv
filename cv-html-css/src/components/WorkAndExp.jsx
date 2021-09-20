@@ -4,41 +4,38 @@ import Frame from "./Frame";
 
 const WorkAndExp = () => {
   return (
-    <Frame title = "Work &amp; Exp">
-      <div className = "work">
-        <ul className = "work__list">
-          {
-            workAndExpList.map(item => 
-              item.isComplited ? 
-              (
-                <li className = "work__item">
-                <span className = "work__date">{item.date}, </span> <span className = "work__location">{item.location}</span>
-                <a className = "work__link" href={item.link}>
+    <Frame title="Work &amp; Exp">
+      <div className="work">
+        <ul className="work__list">
+          {workAndExpList.map((item) =>
+            item.isComplited ? (
+              <li className="work__item" key={item.id}>
+                <span className="work__date">{item.date}, </span>{" "}
+                <span className="work__location">{item.location}</span>
+                <a className="work__link" href={item.link}>
                   {item.place}
                 </a>
                 <span>{item.description}</span>
-                <div className = "line line--complited"></div>
-                <div className = "dot dot--complited"></div>
+                <div className="line line--complited"></div>
+                <div className="dot dot--complited"></div>
               </li>
-              )
-              :
-              (
-                <li className = "work__item">
-                <span className = "work__date">{item.date}, </span> <span className = "work__location">{item.location}</span>
-                <a className = "work__link" href={item.link}>
+            ) : (
+              <li className="work__item" key={item.id}>
+                <span className="work__date">{item.date}, </span>{" "}
+                <span className="work__location">{item.location}</span>
+                <a className="work__link" href={item.link}>
                   {item.place}
                 </a>
                 <span>{item.description}</span>
-                <div className = "line line--not-complited"></div>
-                <div className = "dot dot--not-complited"></div>
+                <div className="line line--not-complited"></div>
+                <div className="dot dot--not-complited"></div>
               </li>
-              ) 
             )
-          }
+          )}
         </ul>
       </div>
     </Frame>
-  )
-}
+  );
+};
 
 export default WorkAndExp;
