@@ -1,6 +1,7 @@
 import React from "react";
 import "./assets/styles/App.css"
 import About from "./components/About";
+import Achievements from "./components/Achievements";
 import Education from "./components/Education";
 import Projects from "./components/Projects";
 import SelfIntro from "./components/SelfIntro";
@@ -23,12 +24,13 @@ function App() {
         <div className = "container">
           <section className = "section--left">
             <Education/>
-            <WorkAndExp/>
             <Projects/>
+            <WorkAndExp/>
           </section>
           <section className = "section--right">
             <Skills/>
             <SelfIntro/>
+            <Achievements/>
           </section>
         </div>
       </main>

@@ -69,9 +69,9 @@ const Projects = () => {
               className="project" 
               style = {{backgroundImage: `url(${process.env.PUBLIC_URL + `images/${project.name}.png`})`}}
             >
-              <a className = "project__link" href = {project.link} target = "_blank">
+              <a className = "project__link" href = {project.link} target = "_blank" rel="noreferrer" >
                 <div className="project__inner" >
-                  <h4 className = "project__name">{project.name}</h4>
+                  <h4 className = "project__name">{project.name}</h4> 
                   
                   <ul className = "tags__list">
                     {

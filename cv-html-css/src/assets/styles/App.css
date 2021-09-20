@@ -432,8 +432,7 @@ pre::-webkit-scrollbar {
 }
 
 .projects__list .project:hover {
-  -webkit-transform: scale(1.01);
-          transform: scale(1.01);
+  border-color: white;
 }
 
 .input-search {
@@ -555,5 +554,31 @@ pre::-webkit-scrollbar {
   -webkit-transform: perspective(864px) rotateY(27deg) translate(-63%, -38%);
           transform: perspective(864px) rotateY(27deg) translate(-63%, -38%);
   opacity: 0.4;
+}
+
+.slide {
+  height: 440px;
+  width: 300px;
+}
+
+.slide .slide__inner {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slide .slide__item {
+  width: 500px;
+  height: 400px;
+  background: center center no-repeat;
+  background-size: contain;
 }
 /*# sourceMappingURL=App.css.map */

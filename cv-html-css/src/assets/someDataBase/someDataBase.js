@@ -547,13 +547,4 @@ export const projectsList = [
 
 ]
 
-// tags: [
-//   {name: 'html', color: '#e34c26'},
-//   {name: 'css', color: '#264de4'},
-//   {name: 'js', color: '#f0db4f'},
-//   {name: 'react', color: '#61dbfb'},
-//   {name: 'node js', color: '#3c873a'},
-//   {name: 'angular', color: '#a6120d'},
-//   {name: 'example', color: '#ae00ff'},
-//   {name: 'not relevat', color: '#990000'},
-// ],
+export const achievementsList = ['rsschool-stage0', 'memas', 'memas']
