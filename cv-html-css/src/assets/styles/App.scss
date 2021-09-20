@@ -499,3 +499,12 @@ pre {
   height: 35px;
   background: center center no-repeat;
 }
+
+@media screen and (max-width: 760px) {
+  .container {
+    flex-direction: column;
+  }
+  .section {
+    width: 100%;
+  }
+}

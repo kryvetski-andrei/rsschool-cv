@@ -23,13 +23,13 @@ function App() {
 
       <main>
         <div className="container">
-          <section className="section--left">
+          <section className="section--left section">
             <Education />
             <Projects />
             <WorkAndExp />
             <English />
           </section>
-          <section className="section--right">
+          <section className="section--right section">
             <Skills />
             <SelfIntro />
             <Achievements />

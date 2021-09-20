@@ -602,4 +602,16 @@ pre::-webkit-scrollbar {
   height: 35px;
   background: center center no-repeat;
 }
+
+@media screen and (max-width: 760px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=App.css.map */
