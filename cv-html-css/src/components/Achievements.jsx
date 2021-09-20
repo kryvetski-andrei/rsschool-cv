@@ -31,7 +31,7 @@ const Achievements = () => {
         </div>
       </div>
       <Modal active = {modalActive} setActive = {setModalActive}>
-        <Slider dots centerMode="true">
+        <Slider dots>
           {achievementsList.map(achiev =>
             <div className = "slide" >
               <div className = "slide__inner">

@@ -35,6 +35,7 @@ a {
 
 a:hover {
   color: #CDD9E5;
+  cursor: pointer;
 }
 
 span {
@@ -580,5 +581,10 @@ pre::-webkit-scrollbar {
   height: 400px;
   background: center center no-repeat;
   background-size: contain;
+}
+
+.eng-lvl {
+  text-align: center;
+  font-size: 82.2px;
 }
 /*# sourceMappingURL=App.css.map */

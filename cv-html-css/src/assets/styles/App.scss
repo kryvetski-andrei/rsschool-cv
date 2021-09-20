@@ -31,8 +31,10 @@ a {
   font-size: 12px;
   text-decoration: none;
   color: #ADBAC7;
+  
   &:hover {
     color: #CDD9E5;
+    cursor: pointer;
   }
 }
 
@@ -497,4 +499,9 @@ pre {
     background: center center no-repeat ;
     background-size: contain;
   }
+}
+
+.eng-lvl {
+  text-align: center;
+  font-size: 82.2px;
 }
