@@ -603,6 +603,12 @@ pre::-webkit-scrollbar {
   background: center center no-repeat;
 }
 
+hr {
+  margin: 10px 0px;
+  border-color: #768390;
+  background-color: #768390;
+}
+
 @media screen and (max-width: 760px) {
   .container {
     -webkit-box-orient: vertical;

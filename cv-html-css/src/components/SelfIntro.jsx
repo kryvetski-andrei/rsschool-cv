@@ -7,9 +7,10 @@ const SelfIntro = () => {
       <iframe
         width="100%"
         height="400"
-        src="https://www.youtube.com/embed/7YdVfZ4Kcw0?controls=0&amp;start=861"
+        src="https://www.youtube.com/embed/QVhhPMNJW6E?controls=0"
         title="YouTube video player"
-        frameBorder="0"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       ></iframe>
     </Frame>
   );
