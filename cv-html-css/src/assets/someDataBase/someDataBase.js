@@ -471,9 +471,7 @@ export const projectsList = [
       {name: 'css', color: '#264de4'},
       {name: 'not relevat', color: '#990000'},
     ],
-      
 
-    
   },
   {
     name: "online-zoo",
@@ -483,30 +481,27 @@ export const projectsList = [
       {name: 'js', color: '#f0db4f'},
       {name: 'not relevat', color: '#990000'},
     ],
-    link: 'https://github.com/kryvetski-andrei',
-    preview: '#e34c26'
+    link: 'https://rolling-scopes-school.github.io/kryvetski-andrei-JSFE2021Q1/online-zoo/',
   },
   {
-    name: "posts",
+    name: "react-posts",
     tags: [
       {name: 'html', color: '#e34c26'},
       {name: 'css', color: '#264de4'},
       {name: 'js', color: '#f0db4f'},
       {name: 'react', color: '#61dbfb'},
     ],
-    link: 'https://github.com/kryvetski-andrei',
-    preview: '#e34c26'
+    link: 'https://elated-roentgen-1ffca5.netlify.app/',
   },
   {
-    name: "piano",
+    name: "virtual-piano",
     tags: [
       {name: 'html', color: '#e34c26'},
       {name: 'css', color: '#264de4'},
       {name: 'js', color: '#f0db4f'},
       {name: 'not relevat', color: '#990000'},
     ],
-    link: 'https://github.com/kryvetski-andrei',
-    preview: '#e34c26'
+    link: 'https://rolling-scopes-school.github.io/kryvetski-andrei-JSFE2021Q1/virtual-piano/',
   },
   {
     name: "js-clock",
@@ -516,48 +511,38 @@ export const projectsList = [
       {name: 'js', color: '#f0db4f'},
       {name: 'not relevat', color: '#990000'},
     ],
-    link: 'https://github.com/kryvetski-andrei',
-    preview: '#e34c26'
+    link: 'https://rolling-scopes-school.github.io/kryvetski-andrei-JSFEPRESCHOOL/js-clock/',
   },
   {
-    name: "some",
+    name: "photo-filter",
     tags: [
       {name: 'html', color: '#e34c26'},
       {name: 'css', color: '#264de4'},
       {name: 'js', color: '#f0db4f'},
-      {name: 'example', color: '#ae00ff'},
-    ],
-    link: 'https://github.com/kryvetski-andrei',
-    preview: '#e34c26'
-  },
-  {
-    name: "some",
-    tags: [
-      {name: 'html', color: '#e34c26'},
-      {name: 'css', color: '#264de4'},
-      {name: 'example', color: '#ae00ff'},
-    ],
-    link: 'https://github.com/kryvetski-andrei',
-    preview: '#e34c26'
-  },
-  {
-    name: "some",
-    tags: [
-      {name: 'example', color: '#ae00ff'},
       {name: 'not relevat', color: '#990000'},
     ],
-    link: 'https://github.com/kryvetski-andrei',
-    preview: '#e34c26'
+    link: 'https://rolling-scopes-school.github.io/kryvetski-andrei-JSFE2021Q1/photo-filter/',
   },
   {
-    name: "some",
+    name: "onliner",
     tags: [
-      {name: 'js', color: '#f0db4f'},
-      {name: 'react', color: '#61dbfb'},
       {name: 'example', color: '#ae00ff'},
     ],
-    link: 'https://github.com/kryvetski-andrei',
-    preview: '#e34c26'
+    link: 'https://www.onliner.by/',
+  },
+  {
+    name: "kinopoisk",
+    tags: [
+      {name: 'example', color: '#ae00ff'},
+    ],
+    link: 'https://www.kinopoisk.ru/',
+  },
+  {
+    name: "facebook",
+    tags: [
+      {name: 'example', color: '#ae00ff'},
+    ],
+    link: 'https://ru-ru.facebook.com/',
   },
 
 ]
