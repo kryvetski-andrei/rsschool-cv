@@ -2,7 +2,6 @@ import React from "react";
 import "./assets/styles/App.css"
 import About from "./components/About";
 import Education from "./components/Education";
-import Frame from "./components/Frame";
 import Projects from "./components/Projects";
 import SelfIntro from "./components/SelfIntro";
 import Skills from "./components/Skills";

@@ -460,61 +460,115 @@ export const skillsList = [
   },
 ]
 
-
 export const projectsList = [
   {
     name: "wildlife",
-    tags: ['html', 'css', 'not relevant'],
     link: 'https://github.com/kryvetski-andrei',
-    preview: '#e34c26'
+    preview: '#e34c26',
+
+    tags: [
+      {name: 'html', color: '#e34c26'},
+      {name: 'css', color: '#264de4'},
+      {name: 'not relevat', color: '#990000'},
+    ],
+      
+
+    
   },
   {
     name: "online-zoo",
-    tags: ['html', 'css', 'javascript', 'not relevant'],
+    tags: [
+      {name: 'html', color: '#e34c26'},
+      {name: 'css', color: '#264de4'},
+      {name: 'js', color: '#f0db4f'},
+      {name: 'not relevat', color: '#990000'},
+    ],
     link: 'https://github.com/kryvetski-andrei',
     preview: '#e34c26'
   },
   {
     name: "posts",
-    tags: ['html', 'css', 'javascript', 'react'],
+    tags: [
+      {name: 'html', color: '#e34c26'},
+      {name: 'css', color: '#264de4'},
+      {name: 'js', color: '#f0db4f'},
+      {name: 'react', color: '#61dbfb'},
+    ],
     link: 'https://github.com/kryvetski-andrei',
     preview: '#e34c26'
   },
   {
     name: "piano",
-    tags: ['html', 'css', 'javascript', 'not relevant'],
+    tags: [
+      {name: 'html', color: '#e34c26'},
+      {name: 'css', color: '#264de4'},
+      {name: 'js', color: '#f0db4f'},
+      {name: 'not relevat', color: '#990000'},
+    ],
     link: 'https://github.com/kryvetski-andrei',
     preview: '#e34c26'
   },
   {
     name: "js-clock",
-    tags: ['html', 'css', 'javascript', 'not relevant'],
+    tags: [
+      {name: 'html', color: '#e34c26'},
+      {name: 'css', color: '#264de4'},
+      {name: 'js', color: '#f0db4f'},
+      {name: 'not relevat', color: '#990000'},
+    ],
     link: 'https://github.com/kryvetski-andrei',
     preview: '#e34c26'
   },
   {
     name: "some",
-    tags: ['html', 'css', 'javascript', 'react', 'nodejs', 'not relevant'],
+    tags: [
+      {name: 'html', color: '#e34c26'},
+      {name: 'css', color: '#264de4'},
+      {name: 'js', color: '#f0db4f'},
+      {name: 'example', color: '#ae00ff'},
+    ],
     link: 'https://github.com/kryvetski-andrei',
     preview: '#e34c26'
   },
   {
     name: "some",
-    tags: ['html', 'css', 'javascript', 'react', 'nodejs', 'not relevant'],
+    tags: [
+      {name: 'html', color: '#e34c26'},
+      {name: 'css', color: '#264de4'},
+      {name: 'example', color: '#ae00ff'},
+    ],
     link: 'https://github.com/kryvetski-andrei',
     preview: '#e34c26'
   },
   {
     name: "some",
-    tags: ['html', 'css', 'javascript', 'react', 'nodejs', 'not relevant'],
+    tags: [
+      {name: 'example', color: '#ae00ff'},
+      {name: 'not relevat', color: '#990000'},
+    ],
     link: 'https://github.com/kryvetski-andrei',
     preview: '#e34c26'
   },
   {
     name: "some",
-    tags: ['html', 'css', 'javascript', 'react', 'nodejs', 'not relevant'],
+    tags: [
+      {name: 'js', color: '#f0db4f'},
+      {name: 'react', color: '#61dbfb'},
+      {name: 'example', color: '#ae00ff'},
+    ],
     link: 'https://github.com/kryvetski-andrei',
     preview: '#e34c26'
   },
 
 ]
+
+// tags: [
+//   {name: 'html', color: '#e34c26'},
+//   {name: 'css', color: '#264de4'},
+//   {name: 'js', color: '#f0db4f'},
+//   {name: 'react', color: '#61dbfb'},
+//   {name: 'node js', color: '#3c873a'},
+//   {name: 'angular', color: '#a6120d'},
+//   {name: 'example', color: '#ae00ff'},
+//   {name: 'not relevat', color: '#990000'},
+// ],

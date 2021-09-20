@@ -364,7 +364,35 @@ pre {
 
   .project {
     height: 100%;
+    background-size: cover;
   }
 }
+.input-search {
+  width: 50%;
+  height: 30px;
+  outline: none;
+  border-radius: 15px;
+  padding: 5px 15px;
+  background-color: #1c2025;
+  color: #768390;
+  margin-bottom: 10px;
+}
+.project__inner {
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 
-
+  .tags__list {
+    align-self: flex-end;
+    display: flex;
+  }
+}
+.tag {
+  display: block;
+  padding: 0px 10px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
